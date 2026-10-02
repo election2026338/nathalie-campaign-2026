@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Nathalie | Candidate for Mayor of Hamilton 2026</title>
+
+  <style>
+    :root {
+      --navy: #102a43;
+      --blue: #1f5f8b;
+      --gold: #d5a928;
+      --cream: #f7f5ef;
+      --white: #ffffff;
+      --text: #243447;
+      --muted: #5b6b7a;
+      --light-blue: #eaf3f8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: white;
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: var(--gold);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: .95rem;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #102a43, #1f5f8b);
+      color: white;
+      text-align: center;
+      padding: 90px 24px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.7rem, 6vw, 4.5rem);
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: var(--gold);
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    section {
+      padding: 70px 24px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .cream {
+      background: var(--cream);
+    }
+
+    .light {
+      background: var(--light-blue);
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+    }
+
+    h2 {
+      color: var(--navy);
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: var(--blue);
+      margin-bottom: 10px;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      color: var(--muted);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-top: 4px solid var(--gold);
+      border-radius: 8px;
+      box-shadow: 0 3px 12px rgba(0,0,0,.06);
+    }
+
+    .timeline {
+      border-left: 4px solid var(--gold);
+      padding-left: 28px;
+      margin-top: 30px;
+    }
+
+    .timeline-item {
+      margin-bottom: 30px;
+    }
+
+    .timeline-item strong {
+      color: var(--navy);
+      font-size: 1.1rem;
+    }
+
+    .education-item {
+      padding: 18px 0;
+      border-bottom: 1px solid #d9e1e8;
+    }
+
+    .education-item strong {
+      display: block;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .contact {
+      background: var(--navy);
+      color: white;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: white;
+    }
+
+    .contact a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    footer {
+      background: #081c2c;
+      color: rgba(255,255,255,.8);
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    @media (max-width: 800px) {
+      .nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 0 6px;
+      }
+
+      .two-column,
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+
+    <div class="logo">
+      Nathalie <span>2026</span>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="priorities.html">Priorities</a>
+      <a href="issues.html">Issues</a>
+      <a href="community.html">Community</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<section class="hero">
+
+  <h1>About <span>Nathalie</span></h1>
+
+  <p>
+    Candidate for Mayor of Hamilton · 2026
+  </p>
+
+</section>
+
+<section class="cream">
+
+  <div class="container">
+
+    <div class="two-column">
+
+      <div>
+
+        <h2>Why I am running</h2>
+
+        <p class="lead">
+          I am running because I love Hamilton and believe the City
+          needs stronger accountability, financial discipline and
+          a renewed focus on residents.
+        </p>
+
+        <p>
+          My main priority is making Hamilton a better-run city:
+          financially responsible, transparent, safe, and focused
+          on the services residents actually need.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h2>My approach</h2>
+
+        <p>
+          My experience has taught me to question documents,
+          examine evidence, listen to people and persist when a
+          problem is difficult.
+        </p>
+
+        <p>
+          I believe municipal government should focus on the people
+          of Hamilton rather than party politics.
+        </p>
+
+        <p>
+          Residents deserve clear information about decisions that
+          affect their homes, businesses, communities and taxes.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <div class="container">
+
+    <h2>What I bring</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Accountability</h3>
+        <p>
+          A commitment to asking questions, examining information
+          and expecting clear answers.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Problem-Solving</h3>
+        <p>
+          A practical approach to difficult issues and a willingness
+          to examine evidence before making decisions.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Resiliency</h3>
+        <p>
+          Persistence and determination when problems are complex
+          or difficult to resolve.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Open Minded</h3>
+        <p>
+          Listening to different perspectives and considering
+          information before reaching conclusions.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Attention to Detail</h3>
+        <p>
+          Careful review of documents, policies and practical
+          consequences.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Professional Negotiation</h3>
+        <p>
+          Experience involving communication, negotiation and
+          working toward practical solutions.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="light">
+
+  <div class="container">
+
+    <h2>Public &amp; Community Service</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <strong>2013–2015</strong>
+        <p>
+          Council member and Chair of the Patient Relations
+          Committee of the College of Traditional Chinese Medicine
+          Practitioners and Acupuncturists of Ontario.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <strong>2006–2013</strong>
+        <p>
+          Observed Transitional Council meetings and followed
+          public decision-making processes.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <strong>2013–Present</strong>
+        <p>
+          Participant and observer of Council meetings and
+          municipal public affairs.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <strong>2015–Present</strong>
+        <p>
+          Observed hearings and prepared reviews relating to
+          public and community matters.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <strong>2002–2006</strong>
+        <p>
+          Involvement in the legislative development surrounding
+          the Traditional Chinese Medicine Act.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cream">
+
+  <div class="container">
+
+    <h2>Education</h2>
+
+    <div class="education-item">
+      <strong>2016 — Governance</strong>
+      Ryerson University
+    </div>
+
+    <div class="education-item">
+      <strong>2017–2019 — Paralegal Studies</strong>
+      Mohawk College
+    </div>
+
+    <div class="education-item">
+      <strong>2002–2010 — Addiction Studies</strong>
+      McMaster University
+    </div>
+
+    <div class="education-item">
+      <strong>2014 — Discipline Administrative Studies</strong>
+      Osgoode Hall Law School, York University
+    </div>
+
+    <div class="education-item">
+      <strong>2010–2013 — Doctoral Studies in Medical Science</strong>
+      Traditional Chinese Medicine and Acupuncture,
+      Liaoning University of Traditional Chinese Medicine
+      (辽宁中医药大学)
+    </div>
+
+    <div class="education-item">
+      <strong>1992–1996 — Post-Graduate Studies</strong>
+      World Economy and Finance,
+      East China Normal University
+      (华东师范大学)
+    </div>
+
+    <div class="education-item">
+      <strong>1983–1987 — Bachelor of Science</strong>
+      Biochemical Pharmaceutics,
+      China Pharmaceutical University
+      (中国药科大学)
+    </div>
+
+  </div>
+
+</section>
+
+<section class="contact">
+
+  <div class="container">
+
+    <h2>Connect with Nathalie</h2>
+
+    <p>
+      Questions about the campaign? Get in touch.
+    </p>
+
+    <p>
+      <strong>905-527-7255</strong>
+    </p>
+
+    <p>
+      <a href="mailto:nathaliehealthc@hotmail.com">
+        nathaliehealthc@hotmail.com
+      </a>
+    </p>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <p>
+    Nathalie — Candidate for Mayor of Hamilton · 2026
+  </p>
+
+  <p style="margin-top:8px;">
+    Campaign website
+  </p>
+
+</footer>
+
+</body>
+</html>
