@@ -181,24 +181,55 @@
       font-size: .9rem;
     }
 
-    @media (max-width: 800px) {
+    .experience-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  margin-top: 35px;
+}
 
-      .nav {
-        flex-direction: column;
-      }
+.experience-photo img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
 
-      nav a {
-        margin: 0 6px;
-      }
+.experience-text h3 {
+  color: var(--blue);
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+}
 
-      .priority-grid {
-        grid-template-columns: 1fr;
-      }
+.experience-text p {
+  margin-bottom: 18px;
+}
+  @media (max-width: 800px) {
 
-      .hero {
-        padding: 65px 24px;
-      }
-    }
+  .nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 0 6px;
+  }
+
+  .priority-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 65px 24px;
+  }
+
+  .experience-story {
+    grid-template-columns: 1fr;
+  }
+
+}
   </style>
 </head>
 
@@ -240,19 +271,66 @@
 </section>
 
 
-<section style="padding:50px 24px; text-align:center; background:#ffffff;">
+<section style="padding:70px 24px; background:#ffffff;">
 
   <div class="container">
 
-    <h2>My Experience</h2>
+    <h2 style="text-align:center;">My Experience</h2>
 
-    <img
-     src="VicePresidentImportExportCo.31March1992MBASuZhouChina4.jpg"
-    
-   
-   
-     title="Nathalie — Business and MBA experience, 1992">
- 
+    <div class="experience-story">
+
+      <div class="experience-photo">
+
+        <img
+          src="VicePresidentImportExportCo.31March1992MBASuZhouChina4.jpg"
+          alt="Nathalie in Suzhou, China, 1992"
+          title="Nathalie — Business and MBA experience, 1992"
+        >
+
+      </div>
+
+      <div class="experience-text">
+
+        <h3>1992 — Vice President, Import &amp; Export Company</h3>
+
+        <p>
+          In 1992, I was promoted to Vice President of the
+          Import &amp; Export branch within my company in Suzhou,
+          China.
+        </p>
+
+        <p>
+          The company was a large state-owned enterprise with
+          more than 30,000 employees. I had first worked for
+          approximately five years as a biochemist in
+          manufacturing, gaining practical experience in
+          production, quality, responsibility and the operation
+          of a large organization.
+        </p>
+
+        <p>
+          My work and performance led to an extraordinary
+          opportunity: I was promoted into a senior management
+          position in the company's Import &amp; Export operation.
+        </p>
+
+        <p>
+          This new responsibility required me to develop a
+          broader understanding of business, international trade,
+          management and finance. It was one of the reasons I
+          returned to university to pursue an MBA, while
+          continuing to build on my scientific and professional
+          background.
+        </p>
+
+        <p>
+          The photograph above is from this period in Suzhou,
+          China.
+        </p>
+
+      </div>
+
+    </div>
 
   </div>
 
